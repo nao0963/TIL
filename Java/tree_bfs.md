@@ -3,7 +3,7 @@
 ## What I Learned
 - how to make traversal by using bfs
 - Understanding of Queue from error I made
-- If there's null value in queue, queue is not empty
+- If there's **null** value in queue, queue is **not empty**
 
 ## error code
     public void bfs(MyTreeNode root) {
