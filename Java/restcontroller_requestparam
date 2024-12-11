@@ -1,0 +1,30 @@
+# restcontroller_requestparam
+
+## What I Learned
+- how to make traversal by using bfs
+- Understanding of Queue from error I made
+- If there's **null** value in queue, queue is **not empty**
+
+## error code
+    @PostMapping("/insert")
+    public ResponseEntity<?> insert(BoardDTO board)
+            throws IllegalStateException, IOException {
+        log.info(board.toString());
+        service.insert(board);
+
+        return ResponseEntity.ok(HttpStatus.OK);
+    }
+
+
+
+## fixed code
+    @PostMapping("/insert")
+    public ResponseEntity<?> insert(**@RequestBody** BoardDTO board)
+            throws IllegalStateException, IOException {
+        log.info(board.toString());
+        service.insert(board);
+
+        return ResponseEntity.ok(HttpStatus.OK);
+    }
+
+    
