@@ -1,9 +1,14 @@
 # restcontroller_requestparam
 
 ## What I Learned
-- how to make traversal by using bfs
-- Understanding of Queue from error I made
-- If there's **null** value in queue, queue is **not empty**
+- While configuring PostMapping in RestController,
+- I found out that I omitted @RequestBody for input data
+- Thinking that @RequestBody is automatically deployed for RestController
+- But instead @ResponseBody is automatically deployed, not @RequestBody
+
+## Recap
+- Learned not to confuse @RequestBody and @ResponseBody
+- And how to use both properly in RestController setting
 
 ## error code
     @PostMapping("/insert")
