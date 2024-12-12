@@ -1,4 +1,4 @@
-# tree_bfs
+# Solving tree problem by using BFS
 
 ## What I Learned
 - how to make traversal by using bfs
