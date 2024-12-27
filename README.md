@@ -7,5 +7,4 @@ A collection of small things I learned daily
 - [Algorithm](Algorithm/)
   - [Baekjun](Baekjun/)
     - [Baek_18290](Baek/tree.md)
-    - [Baek_18190](Baek/tree.md)
   - [Programmers](Programmers/)
