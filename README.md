@@ -6,6 +6,5 @@ A collection of small things I learned daily
   - [Gateway Postfilter](Java/gateway_postfilter_if.md)
 - [Algorithm](Algorithm/)
   - [Baekjun](Baekjun/)
-    - [Baek_18290](Baek/tree.md)
     - [Baek_18290](Baek/tree.md).
   - [Programmers](Programmers/)
