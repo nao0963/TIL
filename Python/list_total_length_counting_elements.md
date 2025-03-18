@@ -1,4 +1,4 @@
-# list_total_length_counting_elements
+# list_counting_all_elements
 
 ## What I learned
 - **len()** should be used instead of **count()** to calculate the total elements in lists
